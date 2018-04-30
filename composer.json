@@ -2,7 +2,7 @@
   "name": "inerciacreativa/wp-feed-images",
   "type": "wordpress-plugin",
   "license": "GPL2",
-  "description": "Widget para mostrar imágenes destacadas en los feeds RSS",
+  "description": "Inserta imágenes destacadas en feeds RSS",
   "homepage": "https://github.com/inerciacreativa/wp-feed-images",
   "keywords": [
     "wordpress",
