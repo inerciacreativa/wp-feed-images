@@ -27,7 +27,7 @@ class FeedImages extends Plugin
 
 		$this->setOptions([
 			'type' => self::ALL,
-			'size' => 'thumbnail'
+			'size' => 'thumbnail',
 		]);
 	}
 

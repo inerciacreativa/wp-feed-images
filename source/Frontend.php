@@ -30,7 +30,7 @@ class Frontend extends PluginClass
 	 */
 	public function addEnclosure(): void
 	{
-		if (!\in_array($this->getOption('type'), [
+		if (!in_array($this->getOption('type'), [
 			FeedImages::ALL,
 			FeedImages::ENCLOSURE,
 		], true)) {
@@ -57,7 +57,7 @@ class Frontend extends PluginClass
 	 */
 	public function addMediaImage(): void
 	{
-		if (!\in_array($this->getOption('type'), [
+		if (!in_array($this->getOption('type'), [
 			FeedImages::ALL,
 			FeedImages::MEDIA,
 		], true)) {
@@ -90,7 +90,7 @@ class Frontend extends PluginClass
 			return null;
 		}
 
-		$id = get_post_thumbnail_id(get_the_ID());
+		$id    = get_post_thumbnail_id(get_the_ID());
 		$image = image_get_intermediate_size($id, $this->getOption('size'));
 
 		if (empty($image)) {
