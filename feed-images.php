@@ -2,7 +2,7 @@
 /**
  * Plugin Name: ic Feed Images
  * Plugin URI:  https://github.com/inerciacreativa/wp-feed-images
- * Version:     4.0.0
+ * Version:     4.0.1
  * Text Domain: ic-feed-images
  * Domain Path: /languages
  * Description: Inserta imágenes destacadas en feeds RSS.
